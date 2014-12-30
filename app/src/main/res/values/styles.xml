@@ -5,4 +5,14 @@
         <!-- Customize your theme here. -->
     </style>
 
+    <style name="dialog_animation">
+        <item name="android:windowEnterAnimation">@anim/slide_in</item>
+        <item name="android:windowExitAnimation">@anim/slide_out</item>
+    </style>
+
+    <style name="dialog_animation_expand">
+        <item name="android:windowEnterAnimation">@anim/expand_in</item>
+        <item name="android:windowExitAnimation">@anim/contract_out</item>
+    </style>
+
 </resources>
